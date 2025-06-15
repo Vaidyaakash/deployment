@@ -31,4 +31,4 @@ jobs:
           curl https://api.newrelic.com/graphql \
           -H 'Content-Type: application/json' \
           -H 'API-Key: $API_KEY' \
-          --data-binary '{"query":"mutation {\n  changeTrackingCreateDeployment(\n    deployment: {deploymentType: BASIC, description: \"GitHub CI Deployment\", user: \"newrelic_user\", version: \"V1\", entityGuid: \"$ENTITY_GUID\"}\n  ) {\n    user\n    version\n    entityGuid\n  }\n}", "variables":""}'
+          --data-binary '{"query":"mutation {\n  changeTrackingCreateDeployment(\n    deployment: {deploymentType: BASIC, description: \"GitHub CI Deployment\", user: \"newrelic_user\", version: \"V1\", entityGuid: \"MzYyNzU0MXxBUE18QVBQTElDQVRJT058NTE1NTY5Mzg4\"}\n  ) {\n    user\n    version\n    entityGuid\n  }\n}", "variables":""}'
