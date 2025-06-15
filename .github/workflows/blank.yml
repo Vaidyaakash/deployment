@@ -32,5 +32,5 @@ jobs:
             -H "Content-Type: application/json" \
             -H "API-Key: $API_KEY" \
             --data-binary '{
-              "query": "mutation { changeTrackingCreateDeployment(deployment: { deploymentType: BASIC, description: \"GitHub CI Deployment\", user: \"newrelic_user\", version: \"V3\", entityGuid: \"MzYyNzU0MXxBUE18QVBQTElDQVRJT058NTE1NTY5Mzg4\" }) { deploymentId } }"
+              "query": "mutation { changeTrackingCreateDeployment(deployment: { deploymentType: BASIC, description: \"GitHub CI Deployment\", user: \"newrelic_user\", version: \"V13\", entityGuid: \"MzYyNzU0MXxBUE18QVBQTElDQVRJT058NTE1NTY5Mzg4\" }) { deploymentId } }"
             }'
